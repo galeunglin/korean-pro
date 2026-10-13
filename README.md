@@ -18,6 +18,8 @@ npm run build
 npm run lint
 ```
 
+`npm run build` 會在 `dist/index.html` 產生自包含的單一 HTML，可直接分享；GitHub Pages 也會使用同一份建置結果。
+
 韓文語音由瀏覽器提供的 `speechSynthesis` 語音合成。可用語音依作業系統與瀏覽器而異；若沒有韓文語音，網站會顯示提示。跟讀錄音使用瀏覽器麥克風權限，僅在頁面中回放，不會上傳。
 
 ## GitHub Pages 部署
